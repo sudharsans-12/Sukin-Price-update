@@ -1,1 +1,6 @@
-
+Contains only records that have passed all validations and are Ready for Upload.
+Columns:
+Seller SKU
+RRP
+SRP
+Price Type
