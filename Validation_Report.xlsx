@@ -1,1 +1,9 @@
-
+Contains all processed records, regardless of whether they passed or failed validation.
+Columns:
+Seller SKU
+Master RRP
+Master SRP
+Marketplace Price
+Marketplace Special Price
+Validation Status
+Remarks
