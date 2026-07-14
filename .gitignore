@@ -1,0 +1,35 @@
+# --- Secrets: never commit real credentials ---
+credentials/*.json
+.streamlit/secrets.toml
+
+# --- Generated / runtime artifacts ---
+output/*.xlsx
+logs/*.log
+logs/*.log.*
+input/*.xlsx
+!input/.gitkeep
+!output/.gitkeep
+!logs/.gitkeep
+!credentials/.gitkeep
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Streamlit ---
+.streamlit/secrets.toml
